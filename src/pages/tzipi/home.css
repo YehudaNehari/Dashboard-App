@@ -1,0 +1,52 @@
+body {
+  direction: rtl;
+  margin: 0;
+}
+
+video {
+  z-index: 1;
+}
+
+.main {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+h1 {
+  font-size: 65px;
+  background: linear-gradient(
+    to left,
+    #635863,
+    white,
+    blue,
+    #fdfffd,
+    #ffffff69,
+    orange,
+    red
+  );
+  color: black;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+  z-index: 999;
+  margin-top: 130px;
+}
+
+.btn button {
+  font-size: 40px;
+  padding: 10px 40px;
+}
+
+.timer {
+  position: absolute;
+  top: 15%;
+  right: 15%;
+  padding: 15px;
+  font-size: 50px;
+  border-radius: 100%;
+  border: 1px solid white;
+  color: white;
+}

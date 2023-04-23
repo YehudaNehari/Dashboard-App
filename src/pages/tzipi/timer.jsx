@@ -6,7 +6,7 @@ const After = () => {
 
 export default function Timer(props) {
   const [minutes, setMinutes] = useState(0);
-  const [seconds, setSeconds] = useState(3);
+  const [seconds, setSeconds] = useState(60);
 
   useEffect(() => {
     let myInterval = setInterval(() => {

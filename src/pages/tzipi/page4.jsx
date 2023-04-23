@@ -6,10 +6,11 @@ export default function Page4() {
     <>
       <div>
         <Timer />
-        <video width="100%" height="100%" preload="auto" autoPlay loop muted>
-          <source src="video/profesor.MP4" type="video/mp4" />
-          Your browser does not support HTML5 video.
-        </video>
+        <img
+          width={"100%"}
+          height={"100%"}
+          src="https://cdn.pixabay.com/photo/2023/04/06/01/26/heart-7902540_960_720.jpg"
+        />
       </div>
     </>
   );

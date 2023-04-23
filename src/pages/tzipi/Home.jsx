@@ -36,10 +36,10 @@ const Home = () => {
             </div>
           </div>
 
-          <video width="100%" height="100%" preload="auto" autoPlay loop muted>
-            <source src="video/iframe.MP4" type="video/mp4" />
-            Your browser does not support HTML5 video.
-          </video>
+          <img
+            width={"100%"}
+            src="https://images.pexels.com/photos/1367276/pexels-photo-1367276.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          />
         </>
       ) : state == "1" ? (
         <Page1 />
